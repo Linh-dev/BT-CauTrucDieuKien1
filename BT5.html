@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>BT5</title>
+</head>
+<body>
+<script>
+    let DiemKiemTra = parseInt(prompt("Diem Kiem Tra:"));
+    let DiemGiuKy = parseInt(prompt("Diem Giu Ky:"));
+    let DiemCuoiKy = parseInt(prompt("Diem Cuoi Ky:"));
+    let dtb = (DiemCuoiKy+DiemGiuKy+DiemKiemTra)/3;
+    if (dtb<4){
+        alert("HS yeu!");
+    }else if (dtb<6){
+        alert("HS TB!");
+    }else if (dtb<8){
+        alert("HS Kha!");
+    }else {
+        alert("HS Gioi!");
+    }
+</script>
+</body>
+</html>
